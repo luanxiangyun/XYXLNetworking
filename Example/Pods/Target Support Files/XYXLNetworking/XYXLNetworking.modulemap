@@ -1,0 +1,6 @@
+framework module XYXLNetworking {
+  umbrella header "XYXLNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

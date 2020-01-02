@@ -1,0 +1,6 @@
+framework module Pods_XYXLNetworking_Example {
+  umbrella header "Pods-XYXLNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
