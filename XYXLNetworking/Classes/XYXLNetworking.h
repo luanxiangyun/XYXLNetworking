@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XYXLNetworking : NSObject
 
+- (void)XYXLNetworkMethod;
+
 @end
 
 NS_ASSUME_NONNULL_END

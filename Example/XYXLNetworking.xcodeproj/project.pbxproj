@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		221D0FBEAD0C6868AA91E6F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		221D0FBEAD0C6868AA91E6F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYXLNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYXLNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		887C37051E8E8A6FC56EF8CA /* Pods-XYXLNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYXLNetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-XYXLNetworking_Example/Pods-XYXLNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C6F454FB1539C97695F486A /* Pods_XYXLNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYXLNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1990B7034534A22D4B8C51 /* XYXLNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYXLNetworking.podspec; path = ../XYXLNetworking.podspec; sourceTree = "<group>"; };
+		9D1990B7034534A22D4B8C51 /* XYXLNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYXLNetworking.podspec; path = ../XYXLNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9EE114C5E52B83D0B8E2804 /* Pods-XYXLNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYXLNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYXLNetworking_Tests/Pods-XYXLNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF28AB46B68437FBA493CED8 /* Pods-XYXLNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYXLNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYXLNetworking_Tests/Pods-XYXLNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2A880AA54EECDF79BBE7E31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2A880AA54EECDF79BBE7E31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F1BBBF51200FE38F1B718C2A /* Pods_XYXLNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYXLNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				BF28AB46B68437FBA493CED8 /* Pods-XYXLNetworking_Tests.debug.xcconfig */,
 				A9EE114C5E52B83D0B8E2804 /* Pods-XYXLNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
